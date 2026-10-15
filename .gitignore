@@ -1,0 +1,22 @@
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# Django
+db.sqlite3
+staticfiles/
+
+# Node.js
+node_modules/
+dist/
+
+# macOS
+.DS_Store
